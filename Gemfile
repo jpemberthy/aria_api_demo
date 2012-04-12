@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
 gem 'rails', '3.1.3'
-gem 'sqlite3'
 gem 'aria_api', '0.0.1'
 
 group :assets do
@@ -11,6 +10,10 @@ end
 
 group :development do
   gem "heroku"
+end
+
+group :development, :test do
+  gem 'sqlite3'
 end
 
 group :production do

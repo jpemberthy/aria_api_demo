@@ -1,1 +1,13 @@
-test
+<div style="margin-left: 100px;">
+  <h1>Test</h1>
+
+  <p>
+    <strong>get_country_from_ip</strong><br/>
+    Calls the AriaApi <em>get_country_from_ip</em> method with your ip.
+    <strong>current_api</strong>: <%= request.remote_ip  %>
+  </p>
+
+  <p>
+    <%= AriaApi.get_country_from_ip ip_address: request.remote_ip %>
+  </p>
+</div>

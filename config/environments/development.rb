@@ -29,7 +29,6 @@ AriaDemo::Application.configure do
   config.assets.debug = true
 
   # AriaAPi sandbox credentials.
-  # Be sure to use yours.
   AriaApi::Configuration.auth_key = "8Vn848nuRPa58jht9jBBpWvSUVsn3fnB"
   AriaApi::Configuration.client_no = "4950701"
   AriaApi::Configuration.url = "https://secure.future.stage.ariasystems.net/api/ws/api_ws_class_dispatcher.php"
